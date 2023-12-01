@@ -1,0 +1,22 @@
+----------Librerías-------------
+import tkinter as tk
+from tkinter import ttk
+from matplotlib.figure import Figure
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import sympy as sp
+from scipy.integrate import odeint
+
+----------Instalación-------------
+pip install sympy
+pip install scipy
+pip install matplotlib
+
+----------Versión-------------
+Python 3.11.5
+
+----------Formato ingreso------------
+Potencia: **
+Raíz cuadrada: sqrt(argumento)
+Multiplicación: * 
+Suma: + 
+Resta: - 
